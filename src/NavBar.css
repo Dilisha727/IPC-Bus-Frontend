@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f5b;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-item:hover {
+    color: #ffeb3b;
+  }
+  
+  .profile-icon {
+    margin-right: 8px;
+  }
+  
